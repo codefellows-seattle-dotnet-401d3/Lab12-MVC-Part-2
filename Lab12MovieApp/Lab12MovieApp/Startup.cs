@@ -24,7 +24,7 @@ namespace Lab12MovieApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+            
             services.AddDbContext<vcMovieContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("vcMovieContext")));
         }
