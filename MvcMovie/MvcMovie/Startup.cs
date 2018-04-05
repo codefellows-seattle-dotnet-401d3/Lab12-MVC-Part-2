@@ -24,7 +24,7 @@ namespace MvcMovie
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
+            //This is Dependency Injection
             services.AddDbContext<MvcMovieContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
         }

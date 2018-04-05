@@ -13,6 +13,7 @@ namespace MvcMovie.Controllers
     {
         private readonly MvcMovieContext _context;
 
+        //This constructor uses the dependency Injection
         public MoviesController(MvcMovieContext context)
         {
             _context = context;
@@ -25,6 +26,7 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Details/5
+        //{id} -> passes route data
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -38,7 +40,7 @@ namespace MvcMovie.Controllers
             {
                 return NotFound();
             }
-
+            //If a instance of the movie model is found it gets passed into detail view.
             return View(movie);
         }
 
