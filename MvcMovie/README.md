@@ -26,4 +26,5 @@ Scaffolded Model View Controller archetecture, using C#, .Net Core and Razor Pag
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2001 4:59pm - Added functionality to add and delete some things. -->
-04-06-2018 9:00pm - Project built out almost per the tutorial.  Ratings don't get seeded into the database, and there is no rating option in the edit form, though you can create a rating when you make a new title.  Need to add CSS and other persionalized details.
+04-06-2018 9:00pm - Project built out almost per the tutorial.  Ratings don't get seeded into the database, and there is no rating option in the edit form, though you can create a rating when you make a new title.  For that matter, clicking "Save changes" in edit does nothing.  You stay on the same screen, and the changes are not saved.  Need to add CSS and other persionalized details.
+04-06-2018 11:34am - Promised help in formating has never come.  I am pushing up and turning in what I've got
