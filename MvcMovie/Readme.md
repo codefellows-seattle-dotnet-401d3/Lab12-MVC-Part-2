@@ -1,14 +1,20 @@
 ## Movie-MVC-Enity-Framework
-The Start of the barebones Model View Controller, This web application allows users to in
+The Start of the bare bones Model View Controller, This web application allows users to
+interact with a database. The data base is called movie database, users can add movies
+with inputs such as Name of movie, Date of movie, Genre of movie, and Price of movie.
 
 ## Author:
 Tiger Hsu
 
-## Version:
-1.0.0 
+## Version
+2.0.0 
 
 ## Overview
-This 
+This web application is a database. This is a fully functional Model, View, Controller framework
+that is using the .NET core and the Entity-database-Framework. A majority of this application is 
+taken directly from the .NET tutorial written by Rick Anderson. The functions were built out
+in controllers using Post Put Methods. The Controller then sends for the Post/Put methods to 
+retrieve the razor pages. 
 
 ## Getting Started
 1. Clone the repository to your local machine.
@@ -20,17 +26,13 @@ This
 
 ![alt text](http://url/to/img.png)
 
-<!-- Show them what looks like and how how to use the application.  -->
-
 ## Architecture
  - C# ASP.NET Core application.
  - MVC architectural design pattern.
  - Entity Framework - built in Visual Studio
 
-
-
 ## Attribution
-
+Rick Anderson
 
 ## Resources
 StackoverFlow
@@ -39,8 +41,5 @@ Microsoft Docs
 ## License
 MIT License
 
-/* Code modified from function sortTableArray obtained from  */
-
 ## Change Log
-
-01-01-2001 4:59pm - Added functionality to add and delete some things. -->
+04-08-2018 4:59pm
