@@ -24,7 +24,7 @@ retrieve the razor pages.
 
 ## Example
 
-![alt text](http://url/to/img.png)
+![alt text](Movies.JPG)
 
 ## Architecture
  - C# ASP.NET Core application.
