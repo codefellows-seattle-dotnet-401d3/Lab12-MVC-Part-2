@@ -24,9 +24,10 @@ namespace MvcMovie.Models
         [StringLength(30)]
         public string Genre { get; set; }
 
-    
-        // Modified to accept numbers and a hyphen, for entering "PG-13
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s\-]+[0-9]*")]
+
+        // Modified to accept numbers and a hyphen, for entering "PG-13"
+        // Modified again, now accepts single-letter ratings, such as G and R.
+        [RegularExpression(@"^[a-zA-Z""'\s\-]+[0-9]*")]
         [StringLength(5)]
         [Required]
         public string Rating { get; set; }
